@@ -12,7 +12,7 @@ jobs:
     env:
       MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME }}
       MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD }}
-      MONGODB_CLUSTER_ADDRESS: cluster0.yuzkas6.mongodb.net
+      MONGODB_CLUSTER_ADDRESS: cluster1.21onlox.mongodb.net
       PORT: 8080
     runs-on: ubuntu-latest
     steps:
