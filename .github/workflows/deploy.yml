@@ -7,8 +7,7 @@ jobs:
     env:
       MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME }}
       MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD }}
-      MONGODB_CLUSTER_ADDRESS: cluster0.yuzkas6.mongodb.net
-      PORT: 8080
+      MONGODB_CLUSTER_ADDRESS: cluster1.vahlmlv.mongodb.net
     runs-on: ubuntu-latest
     steps:
       - name: Get Code
