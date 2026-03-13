@@ -5,8 +5,8 @@ env:
 jobs:
   test:
     env:
-      MONGODB_USERNAME: santoshi
-      MONGODB_PASSWORD: Lxk73UJ1rvKtqqCy
+      MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME }}
+      MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD }}
       MONGODB_CLUSTER_ADDRESS: cluster0.yuzkas6.mongodb.net
       PORT: 8080
     runs-on: ubuntu-latest
